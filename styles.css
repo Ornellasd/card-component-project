@@ -5,14 +5,19 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 25px;
+  grid-gap: 1.25rem;
 }
 
 .card {
   background-color: #faa7ed;
   position: relative;
   height: 300px;
- 
+}
+.card:hover .caret {
+  display: block;
+}
+.card:hover img {
+  opacity: 1;
 }
 
 .card img {
@@ -31,22 +36,15 @@
   justify-content: space-between;
   bottom: 0;
   background: rgba(6, 0, 79, 0.77);
-  opacity: 1;
   width: 100%;
-  color: white;
+  color: #ffffff;
   font-family: Georgia, serif;
   height: 25%;
-  /* position: absolute;
-  height: 20%;
-  bottom: 0;
-  background: #0c1f72;
-  background: rgba(6, 0, 79, 0.77);
-  color: #f1f1f1;
-  width: 100%;
-  opacity: 1;
-  color: white;
-  font-size: 20px;
-  text-align: start; */
+}
+.overlay .caret {
+  display: none;
+  width: 25px;
+  padding-right: 20px;
 }
 .overlay span {
   padding-left: 10px;
@@ -64,19 +62,4 @@
 span {
   display: block;
   line-height: 1.75;
-  bottom: 0;
-}
-
-.overlay .caret {
-  display: none;
-  width: 25px;
-  padding-right: 20px;
-}
-
-.card:hover .caret {
-  display: block;
-}
-
-.card:hover img {
-  opacity: 1;
 }
