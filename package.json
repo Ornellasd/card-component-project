@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/calbear47/employee-card-test#readme",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "laravel-mix": "^6.0.10"
   },
   "devDependencies": {
