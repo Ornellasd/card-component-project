@@ -16,13 +16,12 @@
 .card:hover .caret {
   display: block;
 }
-.card:hover img {
+.card:hover .headshot {
   opacity: 1;
 }
 .card:hover .overlay {
   background-color: #19224c;
 }
-
 .card img {
   transition-timing-function: ease-in;
   transition: 200ms linear;
@@ -39,7 +38,7 @@
   justify-content: space-between;
   align-items: center;
   bottom: 0;
-  background: rgba(25, 23, 53, 0.885);
+  background-color: rgba(6, 0, 79, 0.77);
   width: 100%;
   color: #ffffff;
   font-family: Georgia, serif;
