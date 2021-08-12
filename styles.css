@@ -37,6 +37,7 @@
   position: absolute;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   bottom: 0;
   background: rgba(25, 23, 53, 0.885);
   width: 100%;
@@ -46,11 +47,12 @@
 }
 .overlay .caret {
   display: none;
-  width: 25px;
-  padding-right: 20px;
+  height: 50%;
 }
 .overlay span {
   padding-left: 10px;
+  display: block;
+  line-height: 1.75;
 }
 
 .name {
@@ -60,9 +62,4 @@
 
 .title {
   font-size: 20px;
-}
-
-span {
-  display: block;
-  line-height: 1.75;
 }

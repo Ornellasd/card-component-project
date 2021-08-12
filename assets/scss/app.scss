@@ -50,6 +50,7 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   position: absolute;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   bottom: 0;
   background: mix($color-navy-opaque, $color-dark);
   width: 100%;
@@ -58,11 +59,12 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   height: 25%;
   .caret {
     display: none;
-    width: 25px;
-    padding-right: 20px;
+    height: 50%;
   }
   span {
     padding-left: 10px;
+    display: block;
+    line-height: 1.75;
   }
 }
 
@@ -73,10 +75,4 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
 
 .title {
   font-size: 20px;
-}
-
-span {
-  display: block;
-  line-height: 1.75;
-  // bottom: 0;
 }
