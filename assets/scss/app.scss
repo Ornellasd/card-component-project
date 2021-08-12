@@ -31,6 +31,9 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
     img {
       opacity: 1;
     }
+    .overlay {
+      background-color: mix($color-navy, $color-dark);
+    }
   }
 }
 
@@ -48,7 +51,7 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   display: flex;
   justify-content: space-between;
   bottom: 0;
-  background: $color-navy-opaque;
+  background: mix($color-navy-opaque, $color-dark);
   width: 100%;
   color: $color-light;
   font-family: $font-serif;
