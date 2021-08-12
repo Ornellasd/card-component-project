@@ -1,13 +1,42 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   </head>
   <body>
-    <h1>Card Component project</h1>
-    <p>Build the employee cards component you see attached to the project in the <strong>comp.pdf</strong> or <strong>comp.png</strong> PDF file.</p>
-    <p>Things to keep in mind:</p>
-    <p>1) Should be responsive.</p>
-    <p>2) Use semantic elements, if necessary.</p>
-    <p>3) Don't write static CSS. Write SCSS and compile it into CSS. </p>
+    <span class="header">Meet the team</span>
+    <div class="container">
+      <article class="card">
+        <img src="assets/Images/image-1.jpg" class="image" />
+        <div class="overlay">
+          <div class="details"> 
+            <span class="name">Maria Godoy</span>
+            <span class="title">Founder</span>
+          </div>
+          <i class='fas arrow'>&#xf054;</i>
+        </div>
+      </article>
+      <article class="card">
+        <img src="assets/Images/image-2.jpg" class="image" />
+        <div class="overlay">
+          <div>
+            <span class="name">Tiago Monteiro</span>
+            <span class="title">CEO</span>
+          </div>
+          <i class='fas arrow'>&#xf054;</i>
+      </article>
+      <article class="card">
+        <img src="assets/Images/image-3.jpg" class="image" />
+        <div class="overlay">
+          <div>
+            <span class="name">Tiago Monteiro</span>
+            <span class="title">CTO</span>
+          </div>
+          <i class='fas arrow'>&#xf054;</i>
+        </div>
+      </article>
+      <script src="assets/js/app.js"></script>
   </body>
 </html>
