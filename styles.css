@@ -1,11 +1,16 @@
-.header {
-  font-size: 25px;
+.container {
+  padding: 20px;
 }
 
-.container {
+.header {
+  font-size: 3rem;
+}
+
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 1.25rem;
+  padding-top: 20px;
 }
 
 .card {
@@ -43,6 +48,8 @@
   color: #ffffff;
   font-family: Georgia, serif;
   height: 25%;
+  transition-timing-function: ease-in;
+  transition: 200ms linear;
 }
 .overlay .caret {
   display: none;

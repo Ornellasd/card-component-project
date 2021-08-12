@@ -10,14 +10,21 @@ $metric-gutter: 1.25rem;
 $transition-snappy: 200ms linear;
 $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
 
-.header {
-  font-size: 25px;
+.container {
+  padding: 20px;
 }
 
-.container {
+
+
+.header {
+  font-size: 3rem;
+}
+
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: $metric-gutter;
+  padding-top: 20px;
 }
 
 .card {
@@ -57,6 +64,8 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   color: $color-light;
   font-family: $font-serif;
   height: 25%;
+  transition-timing-function: ease-in;
+  transition: $transition-snappy;
   .caret {
     display: none;
     .svg{
