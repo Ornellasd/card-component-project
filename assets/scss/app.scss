@@ -59,8 +59,10 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   height: 25%;
   .caret {
     display: none;
-    height: 50%;
-    width: 100%;
+    .svg{
+      height: 50%;
+      filter: brightness(0) invert(1);
+    }
   }
   span {
     padding-left: 10px;

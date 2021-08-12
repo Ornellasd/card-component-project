@@ -22,7 +22,7 @@
 .card:hover .overlay {
   background-color: #19224c;
 }
-.card img {
+.card .headshot {
   transition-timing-function: ease-in;
   transition: 200ms linear;
   opacity: 0.5;
@@ -46,7 +46,10 @@
 }
 .overlay .caret {
   display: none;
+}
+.overlay .caret .svg {
   height: 50%;
+  filter: brightness(0) invert(1);
 }
 .overlay span {
   padding-left: 10px;
