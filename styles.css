@@ -17,8 +17,6 @@
   background-color: #faa7ed;
   position: relative;
   height: 300px;
-  transition-timing-function: ease-in;
-  transition: 200ms linear;
 }
 .card:hover .caret {
   display: block;
@@ -30,7 +28,7 @@
   background-color: #19224c;
 }
 .card .headshot {
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in-out;
   transition: 200ms linear;
   opacity: 0.5;
   width: 100%;
@@ -50,6 +48,8 @@
   background-color: rgba(6, 0, 79, 0.77);
   color: #ffffff;
   font-family: Georgia, serif;
+  transition-timing-function: ease-in-out;
+  transition: 200ms linear;
 }
 .overlay .caret {
   display: none;

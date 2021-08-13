@@ -29,8 +29,6 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   background-color: $color-pink;
   position: relative;
   height: 300px;
-  transition-timing-function: ease-in;
-  transition: $transition-snappy;
   &:hover {
     .caret {
       display: block;
@@ -43,7 +41,7 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
     }
   }
   .headshot {
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
     transition: $transition-snappy;
     opacity: 0.5;
     width: 100%;
@@ -63,6 +61,8 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   background-color: $color-navy-opaque;
   color: $color-light;
   font-family: $font-serif;
+  transition-timing-function: ease-in-out;
+  transition: $transition-snappy;
   .caret {
     display: none;
     padding-right: 0.6rem;
