@@ -18,6 +18,15 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
   font-size: 3rem;
 }
 
+.name {
+  margin-bottom: -10px;
+  font-size: 22px;
+}
+
+.title {
+  font-size: 20px;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -76,13 +85,4 @@ $transition-silky: 300ms cubic-bezier(1, 0, 0.55, 0.85);
     display: block;
     line-height: 1.75;
   }
-}
-
-.name {
-  margin-bottom: -10px;
-  font-size: 22px;
-}
-
-.title {
-  font-size: 20px;
 }
